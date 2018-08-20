@@ -6,7 +6,7 @@ namespace ArraysAndListsTasks
     {
         static void Main()
         {
-
+            Console.WriteLine("Hello, GitHub!");
 
 
 
