@@ -22,10 +22,10 @@ namespace ArraysAndListsTasks
 
             while (true)
             {
-                Console.WriteLine("Continue typing names or type 'ENTER' to finish: ");
+                Console.WriteLine("Continue typing names or type 'END' to finish: ");
                 var input = Console.ReadLine();
 
-                if (input.ToUpper() != "ENTER")
+                if (input.ToUpper() != "END")
                 {
                     names.Add(input);
                     continue;
